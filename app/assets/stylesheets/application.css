@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size:13px;
+}
+
+#flash-message-box{
+  color:green;
+  margin:33px;
+}
+
+.error-message{
+  color:red;
+  font-size:26px;
+  margin-left:33px;
+}
+
+.error-table{
+  color:red;
+  margin:0px 33px 33px 33px;
+}
+
+h1{
+  font-size: 26px;
+  margin:17px 0px;
+  font-weight: bold;
+}
+
+.bookers-title{
+  font-weight: 900;
+  font-size:26px;
+}
+
+body{
+  margin:33px;
+}
+
+.bookers-title-in-box{
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.bookers-description{
+  margin:33px;
+}
+
+.home-link{
+  margin:33px;
+  color :#666666;
+}
+
+.home-link:hover,.link:hover{
+  color: white;
+  background-color: black;
+}
+
+/* for index.html.erb */
+
+th{
+  padding:1px 1px 5px;
+}
+
+td{
+  padding:1px 5px 7px;
+}
+
+.link{
+  color:#000;
+  font-size:13px;
+}
+
+.create-heading{
+  font-size: 19px;
+  margin:16px 0px;
+}
+
+.field{
+  margin-bottom:10px
+}
+
+.actions{
+  margin-bottom: 10px
+}
+
+/* show.html.erb */
+.show-title,.show-body{
+  margin:33px;
+}
